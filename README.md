@@ -1,4 +1,4 @@
-# [Sante](https://peercoder.herokuapp.com/) ⭐
+# [Sante](https://sante-mental-health.netlify.app/) ⭐
 
 ![React Badge](http://img.shields.io/badge/Powered%20By-React-blue?style=for-the-badge&logo=)&nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=&logoColor)&nbsp;
@@ -11,8 +11,8 @@
 <a href="https://dart.dev/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a>
 
 
-[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://peercoder.herokuapp.com/)
-[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/ROHAN842/peercoder)
+[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://sante-mental-health.netlify.app/)
+[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/ROHAN842/sante)
 
 ## Overview 👀
 <img src="images/WhatsApp Image 2022-04-20 at 12.17.03 PM.jpeg">
@@ -27,52 +27,53 @@
 <img src="images/Screenshot 2022-04-20 130549.jpg">
 
 
-- Interview Preparation with Peer 👨‍💻
-- Real time video chat 📹 as well as normal chat 💬 with Peer
-- Multi user 👬🏼 group video chat 📹 feature is also available in peercoder
+- Get consulted with doctors 🧑‍⚕ listed in our application 📱 and let them solve your mental 🧠 health issues
+- Real time video chat 📹 as well as normal chat 💬 between user and doctor
+- User can also watch ▶️ YouTube Videos of famous channel "Psych2go" in order to cure themselves from mental trauma
+- Also they can try hands on our innovative AR feature by tapping on random dot like structure resulting in genreation of beautiful quotes in augmented world
+- They may also listen 🎧 to soothing and mind refreshing songs 🎶 listed in our application 📱
 - Clean UI ⚡
-- Online compiler facility is also there where peers can test their optimized, as well as Brute Force approach 👨🏻‍💻
-- Leetcode, InterviewBit and HackerRank practice problems are mentioned in it in order to prepare for interviews ✊
-- If peer wants to meet at some location and do peercoding at some place, then they can share their location 📍
 
-## What is Peer Coder? 🤔
+## What is Sante? 🤔
 
-#### Remote pair programming is something developers have grappled with since well before the pandemic began. 
-#### Peercoder is basically a platform where two peers can do their interview preparation by practicing DSA problems and improve their problem solving skills.
-#### Peer Coder is ideal for Online Interviewing of Developers as well as Learning to code from Friends.
+#### Sante is basically a mental health application which provides user to cure from their mental stress and trauma through its salient features.
+#### The complete application is divided into two main parts of doctors consultation and getting curated by ourselves through innovative ways provided in the app.
 
 
 ## How it works? 🤔
-- **Open the website [https://peercoder.herokuapp.com/](https://peercoder.herokuapp.com/)**
-- **Peer just needs to send same Room Name/id to another peer in order to join a room where apart from practicing problems they can share location, also they can communicate by doing normal chat as well as video chat with each other.**
-- **For Video Chat, peer just need to copy a unique id and send it to peer with whom he/she want to chat.**
-- **For group video chat part, user may join meeting as host or as an attendee. Also in it audio and video controls can be easily controlled by the user.**
-- **Screen sharing feature is also available for every user in case of group video chat.**
+- **Open the website [https://sante-mental-health.netlify.app/](https://sante-mental-health.netlify.app/)**
+- **The application can be downloaded in APK format using the “Download App” button present in the website.**
+- **Also the consultation section is developed for websites too, which means if someone wants to take doctors consultation from there they may take it very easily.**
+- **The consultation section is made using the concept of Socket.io and rooms concept with which the user just needs to join with the room id at the correct time mentioned in the respective section of the doctor, in order to get their consultation.**
+- **Video chat option is also available for the user in both app and website such that user can copy a unique id for video chat section and sent it to the doctor in the room in which both are present and after user may call the doctor from the video calling section and if doctor picks up the call then both may can see each other also they can listen audio as well in order to get better consultation.**
 
 
 ## Dependencies 🗃
 
-- [React.js](https://reactjs.org/) - **Frontend Framework**
-- [Node.js](https://nodejs.org/en/) - **Backend Framework**
+- [Flutter](https://flutter.dev/) - **Framework used to build complete mobile application part of Sante**
+- [React.js](https://reactjs.org/) - **Frontend Framework for Consultation and Video Chat Section**
+- [Node.js](https://nodejs.org/en/) - **Backend Framework for Consultation and Video Chat Section**
 - [Express.js](https://expressjs.com/) - **Server Side Node.js Framework**
 - [Socket.io](https://socket.io/) - **Client-Server Communication**
 
-## Run Locally 💻
+## Run Locally 📱
 
 ```
 > Clone the repo
     >> For Windows: Git Bash
     >> For Linux: Terminal
-    >> git clone https://github.com/ROHAN842/peercoder.git
-    >> cd Peercoder
+    >> git clone https://github.com/ROHAN842/sante.git
+    >> cd sante
+    >> cd Sante_Mental_Health_App
+    >> cd flutter_healthcare_app-master
 > Install all dependencies
-    >> npm i
-> Spin the server on port 5000
-    >> cd src
-    >> nodemon or node index.js
-> Spin the react on port 3000
-    >> cd client
-    >> npm start
-> Visit the website on http://localhost:3000/
+    >> flutter pub get
+> Open the emulator by choosing any device present in android emulator
+    >> Press Ctrl+F5 to run the application without debugging in VS Code
+    >> Or user may debug it first also by pressing key F5 in VS Code
+> Also the user may choose the option of USB Debugging inorder to test application in personal mobile phone
+    >> Press Ctrl+F5 to run the application without debugging in VS Code
+    >> Or user may debug it first also by pressing key F5 in VS Code
+> After few seconds the application will be opened in respective device chosen by the user
     
 ```
